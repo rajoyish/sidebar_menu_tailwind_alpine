@@ -2,7 +2,7 @@ document.addEventListener("alpine:init", () => {
   // Stores variable globally
   Alpine.store("sidebar", {
     full: false,
-    active: "home",
+    active: "",
     navOpen: false,
   });
   // Creating component Dropdown
@@ -31,6 +31,6 @@ document.addEventListener("alpine:init", () => {
   Alpine.data("tooltip", () => ({
     show: false,
     visibleClass:
-      "block sm:absolute -top-7 sm:border border-blue-900 left-5 sm:text-sm sm:bg-blue-900 sm:px-2 sm:py-1 sm:rounded-md",
+      "block sm:absolute -top-7 sm:border border-gray-900 left-5 sm:text-sm sm:bg-gray-900 sm:px-2 sm:py-1 sm:rounded-md",
   }));
 });

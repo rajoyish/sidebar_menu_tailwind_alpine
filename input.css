@@ -5,3 +5,7 @@
 [x-cloak] {
   display: none;
 }
+
+.activeMenu {
+  background-color: #3b82f6;
+}
